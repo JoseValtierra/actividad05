@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+
+}
+header{
+    width: 1000%;
+    height: 90px;
+    background: rgb(16, 78, 78);
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+}
+.menu{
+    padding: 20px;
+    position: center;
+}
+.navegacion{
+    width: 10%;
+    margin: auto 30px;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+     border: 1px solid ;
+    border-color: white;
+    border-radius: 10px;
+    transition: all .2s;
+}
+.menu > li:hover{
+    border-color: plum;
+    transition: all .4s;
+}
+.menu>li>a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: "open sans";
+    text-decoration: none;
+    transition: all .2s;
+    text-align: center;
+}
+nav .menu{
+    text-align: center;
+}
+.menu li a:hover{
+    color: plum;
+    transition: all .4s;
+}
+section.php{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
